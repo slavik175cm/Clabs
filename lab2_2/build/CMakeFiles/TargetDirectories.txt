@@ -1,0 +1,3 @@
+D:/Git/sin-x-/build/CMakeFiles/go.dir
+D:/Git/sin-x-/build/CMakeFiles/edit_cache.dir
+D:/Git/sin-x-/build/CMakeFiles/rebuild_cache.dir

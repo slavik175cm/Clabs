@@ -1,0 +1,13 @@
+[
+{
+  "directory": "D:/Git/rounding/build",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\convert.dir\\main.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\Git\\rounding\\main.c",
+  "file": "D:/Git/rounding/main.c"
+},
+
+{
+  "directory": "D:/Git/rounding/build",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\convert.dir\\get_double.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\Git\\rounding\\get_double.c",
+  "file": "D:/Git/rounding/get_double.c"
+}
+]

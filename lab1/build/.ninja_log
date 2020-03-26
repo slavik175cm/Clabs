@@ -1,0 +1,14 @@
+# ninja log v5
+1	263	604325780	CMakeFiles/convert.dir/get_double.c.obj	1e21807139f9b3cf
+1	683	604325848	CMakeFiles/convert.dir/main.c.obj	5da1cfec9448181a
+684	1417	604325849	convert.exe	1c1ea572e17d6255
+2	1011	604326164	CMakeFiles/convert.dir/main.c.obj	5da1cfec9448181a
+1012	1589	604326165	convert.exe	1c1ea572e17d6255
+2	548	604931815	CMakeFiles/convert.dir/main.c.obj	5da1cfec9448181a
+548	976	604931815	convert.exe	1c1ea572e17d6255
+0	297	604932221	CMakeFiles/convert.dir/main.c.obj	5da1cfec9448181a
+298	529	604932222	convert.exe	1c1ea572e17d6255
+0	252	604932623	CMakeFiles/convert.dir/main.c.obj	5da1cfec9448181a
+252	535	604932623	convert.exe	1c1ea572e17d6255
+1	1205	605094989	CMakeFiles/convert.dir/main.c.obj	5da1cfec9448181a
+1205	1832	605094989	convert.exe	1c1ea572e17d6255

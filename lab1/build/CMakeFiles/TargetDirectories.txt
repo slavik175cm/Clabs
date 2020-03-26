@@ -1,0 +1,3 @@
+D:/Git/rounding/build/CMakeFiles/edit_cache.dir
+D:/Git/rounding/build/CMakeFiles/convert.dir
+D:/Git/rounding/build/CMakeFiles/rebuild_cache.dir

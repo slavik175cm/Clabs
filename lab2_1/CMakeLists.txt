@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.0.0)
+project(go C)
+set(CMAKE_C_STANDARD 89)
+set(SOURCES main.c get_double.c)
+add_executable(go ${SOURCES})

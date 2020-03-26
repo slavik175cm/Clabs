@@ -1,0 +1,3 @@
+D:/Git/converter/build/CMakeFiles/go.dir
+D:/Git/converter/build/CMakeFiles/edit_cache.dir
+D:/Git/converter/build/CMakeFiles/rebuild_cache.dir

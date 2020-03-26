@@ -1,0 +1,13 @@
+[
+{
+  "directory": "D:/Git/sin-x-/build",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\go.dir\\main.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\Git\\sin-x-\\main.c",
+  "file": "D:/Git/sin-x-/main.c"
+},
+
+{
+  "directory": "D:/Git/sin-x-/build",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\go.dir\\get_double.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\Git\\sin-x-\\get_double.c",
+  "file": "D:/Git/sin-x-/get_double.c"
+}
+]
