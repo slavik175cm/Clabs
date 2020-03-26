@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.0.0)
+project(convert C)
+set(CMAKE_C_STANDARD 89)
+set(SOURCES main.c safe_input.c)
+add_executable(convert ${SOURCES})

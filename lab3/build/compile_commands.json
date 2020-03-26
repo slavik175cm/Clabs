@@ -1,0 +1,13 @@
+[
+{
+  "directory": "D:/Clabs/lab3/build",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx64\\x86\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\convert.dir\\main.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\Clabs\\lab3\\main.c",
+  "file": "D:/Clabs/lab3/main.c"
+},
+
+{
+  "directory": "D:/Clabs/lab3/build",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx64\\x86\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\convert.dir\\safe_input.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\Clabs\\lab3\\safe_input.c",
+  "file": "D:/Clabs/lab3/safe_input.c"
+}
+]

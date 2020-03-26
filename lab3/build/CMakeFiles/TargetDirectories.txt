@@ -1,0 +1,3 @@
+D:/Clabs/lab3/build/CMakeFiles/edit_cache.dir
+D:/Clabs/lab3/build/CMakeFiles/convert.dir
+D:/Clabs/lab3/build/CMakeFiles/rebuild_cache.dir

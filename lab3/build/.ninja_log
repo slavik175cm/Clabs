@@ -1,0 +1,10 @@
+# ninja log v5
+1	84	606951422	CMakeFiles/convert.dir/main.c.obj	34834bbfc380ebd
+5	90	606951422	CMakeFiles/convert.dir/safe_input.c.obj	6b9c795addf89d19
+91	627	606951423	convert.exe	4cf8b79fb579acf3
+0	282	606951526	CMakeFiles/convert.dir/safe_input.c.obj	6b9c795addf89d19
+283	575	606951526	convert.exe	4cf8b79fb579acf3
+0	268	606951682	CMakeFiles/convert.dir/main.c.obj	34834bbfc380ebd
+1	420	606951717	convert.exe	4cf8b79fb579acf3
+0	244	606951739	CMakeFiles/convert.dir/main.c.obj	34834bbfc380ebd
+245	528	606951739	convert.exe	4cf8b79fb579acf3
