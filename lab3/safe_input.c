@@ -48,7 +48,7 @@ int valid_n_ints(char *numbers, int n, int *list) {
     current[0] = '\0';
     for (i = 0; numbers[i] != '\0'; i++) {
         strncat(current, &numbers[i], 1);
-        if ((numbers[i + 1] == '\0') || (numbers[i] != ' ' && numbers[i + 1] == ' ')) {
+        if ((numbers[i] != ' ' && numbers[i + 1] == '\0') || (numbers[i] != ' ' && numbers[i + 1] == ' ')) {
             if (kol > n) return 0;
             list[kol++] = atoi(current);
             current[0] = '\0';

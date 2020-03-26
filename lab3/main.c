@@ -28,6 +28,7 @@ int main() {
         if (n % 2 == 1) break;
         puts("Number should be odd");
     }
+
     int i;
     int **array = (int **) malloc(n * sizeof(int*));
     for (i = 0; i < n; ++i) { 
