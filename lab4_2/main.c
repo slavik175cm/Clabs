@@ -61,7 +61,10 @@ void rewrite(FILE* program) {
                 len = 0;
             }
         }
-        
+        if (kol == 300) {
+            printf("File is too big");
+            return;
+        }
         for (i = 0; text[i] != '\0'; i++)
             new[kol][i] = text[i];
         new[kol][i] = text[i];

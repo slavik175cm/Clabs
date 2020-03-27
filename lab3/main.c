@@ -31,8 +31,16 @@ int main() {
 
     int i;
     int **array = (int **) malloc(n * sizeof(int*));
+    if (array == NULL) {
+        printf("Not enough memory!");
+        return;
+    }
     for (i = 0; i < n; ++i) { 
         array[i] = (int *) malloc(n * sizeof(int*));
+        if (array[i] == NULL) {
+            printf("Not enough memory!");
+            return;
+        }
         array[i] = get_n_ints(n);
     }
 
