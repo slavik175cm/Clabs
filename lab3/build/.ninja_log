@@ -3,3 +3,5 @@
 0	66	606956553	build.ninja	6d7ef45a4d9558f1
 752	1718	607011580	convert.exe	4cf8b79fb579acf3
 1	752	607011579	CMakeFiles/convert.dir/safe_input.c.obj	6b9c795addf89d19
+0	766	607012259	CMakeFiles/convert.dir/main.c.obj	34834bbfc380ebd
+767	1112	607012259	convert.exe	4cf8b79fb579acf3

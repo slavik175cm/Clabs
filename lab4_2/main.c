@@ -46,28 +46,29 @@ void to_upper(char *word) {
 
 void rewrite(FILE* program) {
     char s[300], cur[300], new[1000][300], text[300];
-    int i, len = 0, kol = 0;
+    int i, len = 0, kol = 0, tt, j;
     while (!feof(program)) {
         fgets(s, 299, program);
-        text[0] = '\0';
+        tt = 0;
         for (i = 0; s[i] != '\0'; i++) {
-            if (s[i] == ' ' || s[i] == '\t' || s[i] == '\n') { strncat(text, &s[i], 1); continue; }
+            if (s[i] == ' ' || s[i] == '\t' || s[i] == '\n') { text[tt++] = s[i]; continue; }
             cur[len++] = s[i];
             if (s[i] != ' ' && s[i] != '\t' && s[i] != '\n' && (s[i + 1] < 'a' || s[i + 1] > 'z')) {
                 cur[len] = '\0';
                 if (is_key_word(cur))
                     to_upper(cur);
-                strcat(text, cur);
+                for (j = 0; cur[j] != '\0'; j++)
+                    text[tt++] = cur[j];
                 len = 0;
-            }
+            }   
         }
         if (kol == 300) {
             printf("File is too big");
-            return;
+            exit(0);
         }
-        for (i = 0; text[i] != '\0'; i++)
+        for (i = 0; i < tt; i++)
             new[kol][i] = text[i];
-        new[kol][i] = text[i];
+        new[kol][i] = '\0';
         kol++;
     }   
     program = fopen("program.txt", "w");
@@ -99,5 +100,10 @@ int main() {
     read_key_words(vocabulary);
     rewrite(program);
 
+    for (i = 0; i < kol; i++)
+        free(vocab[i]);
+    free(vocab);
+    fclose(vocabulary);
+    fclose(program);
     return 0;
 }

@@ -61,7 +61,10 @@ VOID rewrite(FILE* program) {
                 len = 0;
             }
         }
-        
+        IF (kol == 300) {
+            printf("File is too big");
+            RETURN;
+        }
         FOR (i = 0; text[i] != '\0'; i++)
             new[kol][i] = text[i];
         new[kol][i] = text[i];
@@ -75,7 +78,10 @@ VOID rewrite(FILE* program) {
 INT main() {    
     FILE* vocabulary = fopen("keywords.txt", "r");
     FILE* program = fopen("program.txt", "r");
-    
+    IF (vocabulary == NULL || program == NULL) {
+        printf("File is not found");
+        RETURN;
+    }
     INT i;
     vocab = (char **) malloc(100 * SIZEOF(char*));
     IF (vocab == NULL) {
