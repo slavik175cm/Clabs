@@ -78,7 +78,10 @@ void rewrite(FILE* program) {
 int main() {    
     FILE* vocabulary = fopen("keywords.txt", "r");
     FILE* program = fopen("program.txt", "r");
-    
+    if (vocabulary == NULL || program == NULL) {
+        printf("File is not found");
+        return;
+    }
     int i;
     vocab = (char **) malloc(100 * sizeof(char*));
     if (vocab == NULL) {
